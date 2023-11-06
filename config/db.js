@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const conectarDB = async () => {
     try {
-        await mongoose.connect('mongodb://18.215.149.1:27017/usuarios', {
+        await mongoose.connect('mongodb://54.162.254.166:27017/usuarios', {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
@@ -15,3 +15,4 @@ const conectarDB = async () => {
 }
 
 module.exports = conectarDB
+
